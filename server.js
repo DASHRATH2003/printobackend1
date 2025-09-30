@@ -32,11 +32,8 @@ const MONGO_URI = process.env.MONGO_URI;
 
 // CORS Configuration - Allow both production and local development
 const allowedOrigins = [
-  'https://princo.vercel.app',
-  'http://localhost:3000',
-  'http://localhost:3001',
-  'http://localhost:3002', // Current frontend port
-  'http://localhost:5173', // Vite default port
+  'https://newprinto.vercel.app',
+  'http://localhost:3000', // Vite default port
   process.env.FRONTEND_URL // Dynamic from environment
 ].filter(Boolean); // Remove any undefined values
 
